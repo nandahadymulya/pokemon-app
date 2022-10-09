@@ -1,8 +1,11 @@
 <template>
-  <div class="p-14">
-    <router-link class="flex justify-center text-4xl text-yellow-700" to="/">Pokemon Picker</router-link>
+  <div class="w-full">
+    <router-view />
+    <footer class="p-2 md:p-6 w-full text-center text-gray-400 bottom-1 absolute">Create with &hearts; by <a href="https://linkedin.com/in/nandahadymulya" target="_blank">Nanda Hady Mulya.</a></footer>
   </div>
-  <router-view />
 </template>
-
-<style></style>
+<style>
+#app {
+  overflow: hidden;
+}
+</style>
